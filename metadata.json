@@ -1,0 +1,6 @@
+{
+  "name": "PID E+",
+  "description": "Plataforma interativa com mapa e inteligência artificial para análise de consumo de energia e produção industrial nos estados brasileiros.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

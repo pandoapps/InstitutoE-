@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Leaflet dark theme customization overrides */
+.custom-map-tooltip {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.custom-map-tooltip::before {
+  border-top-color: #09090b !important;
+  border-bottom-color: #09090b !important;
+  display: none !important; /* Hide standard tooltip arrows for a cleaner floating widget look */
+}
+
+/* Ensure leaflet controls match dark theme style nicely */
+.leaflet-bar {
+  border: 1px solid #1f1f22 !important;
+  background-color: #09090b / 90% !important;
+}
+
+.leaflet-bar a {
+  background-color: #09090b !important;
+  color: #a1a1aa !important;
+  border-bottom: 1px solid #1f1f22 !important;
+  transition: all 0.2s ease;
+}
+
+.leaflet-bar a:hover {
+  background-color: #18181b !important;
+  color: #f97316 !important;
+}
+
+.leaflet-container {
+  background: #09090b !important;
+  outline: none;
+}
+
